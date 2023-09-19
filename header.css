@@ -1,0 +1,35 @@
+:root{
+    --couleurPrincipale:#32438A;
+    --bleuClair : #D9EDF7 ;
+    --bleuFoncé : #3F55AF ;
+    --vertClair : #449D44;
+    --bleuCiel:#4A90E2;
+}
+.active{
+    color: white;
+}
+.navbar-toggler{
+    color: white;
+    background-color: aliceblue;
+}
+.nav-link:hover{
+    color: aqua;
+}
+body{
+    display: grid;
+    grid-template-rows:auto auto auto ;
+}
+main{
+    margin-top: 60px;
+}
+footer{
+    background-color: #F5F8FA;
+    border-top: 3px solid #E5E9EE;
+}
+h4{
+    font-weight: 400;
+}
+.abonnement{
+    background-color: var(--couleurPrincipale);
+    border: none;
+}
