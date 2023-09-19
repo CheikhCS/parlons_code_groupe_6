@@ -1,0 +1,22 @@
+:root{
+    --white : white;
+    --color_achat : #36858E;
+}
+.mes_ancres{
+    color: var(--white);
+    text-decoration: none;
+}
+.achat{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.achat:hover {
+    color: var(--white);
+    background-color: var(--color_achat);
+    border: 1px solid var(--color_achat);
+}
+.button_achat{
+    background-color: var(--color_achat);
+    border: 1px solid var(--color_achat);
+}
