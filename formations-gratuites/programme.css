@@ -2,9 +2,9 @@
     background-color: var(--vertClair);
     color: white;
 }
-.container{
+/* .container{
     background-color: aqua;
-}
+} */
 .btn-primary-light{
     background-color: var(--bleuCiel);
 }
@@ -28,5 +28,14 @@ h4{
     font-weight: 300;
 }
 .accordion-item{
-    background-color: blue;
+}
+.simple-accordion{
+    margin-left: 22px;
+    padding: 10px 0;
+}
+#cercle{
+    background-color: #DDE8F4;
+    height: 32px;
+    border: 2px solid var(--bleuCiel);
+
 }
