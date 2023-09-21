@@ -1,0 +1,41 @@
+#btn-success-light{
+    background-color: var(--vertClair);
+    color: white;
+}
+/* .container{
+    background-color: aqua;
+} */
+.btn-primary-light{
+    background-color: var(--bleuCiel);
+}
+main{
+    margin: 0;
+}
+
+.active{
+    background-color: white;
+    border-left: 5px solid black;
+    padding: 10px;
+}
+#btnCommencer{
+    background-color: var(--bleuCiel);
+}
+h4{
+    font-weight: bold;
+}
+#lienDirect{
+    font-size: 15px;
+    font-weight: 300;
+}
+.accordion-item{
+}
+.simple-accordion{
+    margin-left: 22px;
+    padding: 10px 0;
+}
+#cercle{
+    background-color: #DDE8F4;
+    height: 32px;
+    border: 2px solid var(--bleuCiel);
+
+}

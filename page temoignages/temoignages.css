@@ -1,0 +1,40 @@
+body{
+    /* background-color: white; */
+}
+.images{
+   
+    /* border: 1px solid brown; */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.title {
+    text-align: center;
+    /* border: 2px solid; */
+}
+.title h3{
+    font-size: 40px;
+}
+hr{
+    width: 80%;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+.sous-titre{
+    text-align: center;
+    width: 20%;
+    font-size: 25px;
+    color: gray;
+}
+.active{
+    color: white;
+    background-color: blue;
+}
+/* body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+} */

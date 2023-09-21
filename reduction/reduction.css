@@ -1,0 +1,32 @@
+body{
+    font-family :Gilroy,system-ui,-apple-system,BlinkMacSystemFont,".SFNSText-Regular","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.bg-primary-dark{
+    background-color: var(--bleuFoncé);
+}
+.border-primary-dark{
+    border: 1px solid var(--bleuFoncé);
+}
+.border-primary-light{
+    border: 1px solid var(--bleuClair);
+}
+.bg-primary-light{
+    background-color: var(--bleuClair);
+}
+.text-primary-dark{
+    color: var(--bleuFoncé);
+}
+.text-primary-light{
+    color: #31709C;
+}
+
+#a-hover-underline{
+    text-decoration: none;
+}
+
+#a-hover-underline:hover {
+    text-decoration: underline;
+}
+h1{
+    color: #28384D;
+}

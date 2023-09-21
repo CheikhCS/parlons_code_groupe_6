@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid green;
+    height: 500px;
+}
+.text{
+    /* margin-left: 215px; */
+}
+.form-control{
+    margin-left: 215px;
+}
+.logo{
+    margin-left: 170px;
+}
