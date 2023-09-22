@@ -28,10 +28,7 @@ hr{
     font-size: 25px;
     color: gray;
 }
-.active{
-    color: white;
-    background-color: blue;
-}
+
 /* body{
     margin: 0;
     padding: 0;

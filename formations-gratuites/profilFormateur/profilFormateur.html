@@ -18,31 +18,33 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
      <title>Formations</title>
      <style>
-      h4{
-        color: var(--bleuFoncé);
+      
+      .honore_name h4{
+        color: blue;
       }
       .font-text{
         font-size: 10px;
       }
       .btnDemarrer{
-        background-color: var(--bleuFoncé);
+        background-color: blue;
         color: white;
       }
+      
      </style>
 </head>
 <body>
     
         <header>
-            <div class="container">
+            <div class="container pt-5">
                 <nav class="navbar navbar-expand-lg fixed-top mb-5 bg-dark">
                     <div class="container-fluid">
-                      <a class="navbar-brand text-white-50 mx-5" href="#"> <i class="fa-solid fa-code-branch mx-2"></i>Parlons Code</a>
+                      <a class="navbar-brand text-white-50 mx-5" href="../../page_formation/page_accueil.html"> <i class="fa-solid fa-code-branch mx-2"></i>Parlons Code</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse justify-content-end mx-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                          <a class="nav-link active text-white-50" aria-current="page" href="../../page_formation/indexF.html">Formations</a>
+                          <a class="nav-link active text-white-50" aria-current="page" href="../../page_formation/page_accueil.html">Formations</a>
                           <a class="nav-link text-white-50" href="../../Atelier/Atelier.html">Ateliers</a>
                           <a class="nav-link text-white-50" href="../../podcasts/pod.html">Podcasts</a>
                           <a class="nav-link text-white-50" href="../../livres/liste_livres.html">Livres</a>
@@ -55,12 +57,12 @@
         </header>
     
         <main>
-          <div class="container mb-5">
-            <div class="d-flex bg-body-secondary border rounded">
+          <div class="container">
+            <div class="d-flex bg-body-secondary border rounded mt-5">
                 <div class="my-3 mx-3">
                   <img class="large-img-rounded img-responsive p-2 border bg-body" style="width: 40%" id="img-formateur" src="https://online.parlonscode.com/images/teachers/honore.jpeg" alt="Honoré Hounwanou">
                 </div>
-                <div class="col-4 col-md-4 col-lg-4">
+                <div class="col-4 col-md-4 col-lg-4 honore_name">
                   <div>
                     <h4>Honoré  Hounwanou </h4>
                     <p>Formateur Parlons Code</p>
@@ -95,12 +97,14 @@
                       </div>
                       <div class="card-body">
                         <div class="liens fs-5">
-                          <a href="#">Devenez un pro de Symfony 6</a>
+                          <a href="../../demarrage_formation/demarrage_formation.html">Devenez un pro de Symfony 6</a>
                         </div>
                         <p class="card-text">Même si la documentation du framework Symfony est excellente et qu’il existe également de nombreux tutoriels, livres et articles sur le sujet, j’ai trouvé que très peu de ressources montraient comment utiliser Symfony pour créer des applications exploitables dans le monde réel. Mon objectif avec cette formation est de combler cette lacune et du même coup étaler toute la puissance du framework Symfony en créant des clones de plusieurs applications existantes: Amazon, Indeed, etc.</p>
                       </div>
                       <div class="footer my-4">
-                        <button class="btn btnDemarrer col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        <a href="../../demarrage_formation/demarrage_formation.html">
+                          <button class="btn btn-primary col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -116,7 +120,9 @@
                         <p class="card-text">Python est un langage très simple d’apprentissage et vous pouvez l’utiliser pour créer différents types d'applications: des applications Web, des applications de bureau, des jeux vidéos, voir même un moteur de recherche! Grâce à cette MasterClass, vous deviendrez un(e) développeur(se) Python aguerri(e) tout en vous amusant à créer une série de projets pratiques et ludiques.</p>
                       </div>
                       <div class="footer my-4">
-                        <button class="btn btnDemarrer col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        <a href="../../demarrage_formation/demarrage_formation.html">
+                          <button class="btn btn-primary col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -127,7 +133,7 @@
                       </div>
                       <div class="card-body">
                         <div class="liens fs-5">
-                          <a href="#">Symfony 5 en une semaine!</a>
+                          <a href="../../demarrage_formation/demarrage_formation.html">Symfony 5 en une semaine!</a>
                         </div>
                         <div class="icone">
                           <i class="fa-solid fa-bars-progress" style="color: #595f69;"></i>
@@ -136,7 +142,9 @@
                         <p class="card-text">Symfony a la mauvaise réputation d'être un framework difficile d'apprentissage mais il s'agit en effet d'une idée désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble de composants basés sur d'excellentes pratiques de développement. (Donnez-moi une semaine et je vous le prouverai :). Ready?
                         </div>
                       <div class="footer my-4">
-                        <button class="btn btnDemarrer col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        <a href="../../demarrage_formation/demarrage_formation.html">
+                          <button class="btn btn-primary col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        </a>
                       </div>
                   </div>
                 </div>
@@ -151,7 +159,7 @@
                       </div>
                       <div class="card-body">
                         <div class="liens fs-5">
-                          <a href="#">Symfony 4 en une semaine!</a>
+                          <a href="../../demarrage_formation/demarrage_formation.html">Symfony 4 en une semaine!</a>
                         </div>
                         <div class="icone">
                           <i class="fa-solid fa-bars-progress" style="color: #595f69;"></i>
@@ -163,7 +171,9 @@
                         <p class="card-text">Symfony a la mauvaise réputation d'être un framework difficile d'apprentissage mais il s'agit en effet d'une idée désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble de composants basés sur d'excellentes pratiques de développement. (Donnez-moi une semaine et je vous le prouverai :). Ready?</p>
                       </div>
                       <div class="footer my-4">
-                        <button class="btn btnDemarrer col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        <a href="../../demarrage_formation/demarrage_formation.html">
+                          <button class="btn btn-primary col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -174,7 +184,7 @@
                     </div>
                       <div class="card-body">
                         <div class="liens fs-5">
-                          <a href="#">Devenez un pro de Symphony 3/4</a>
+                          <a href="../../demarrage_formation/demarrage_formation.html">Devenez un pro de Symphony 3/4</a>
                         </div>
                         <div class="icone">
                           <i class="fa-solid fa-bars-progress" style="color: #595f69;"></i>
@@ -187,7 +197,9 @@
                         <p class="card-text">Symfony a une mauvaise réputation selon laquelle il serait difficile d'apprentissage mais croyez-moi il s'agit en effet d'une idée désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble de composants basés sur d'excellentes pratiques de développement. Je ferai de vous un "pro" Symfony 3 et 4. Ready?</p>
                       </div>
                       <div class="footer my-4">
-                        <button class="btn btnDemarrer col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        <a href="../../demarrage_formation/demarrage_formation.html">
+                          <button class="btn btn-primary col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -198,7 +210,7 @@
                       </div>
                       <div class="card-body">
                         <div class="liens fs-5">
-                          <a href="#">Devenez Devenez Swag avec Swing</a>
+                          <a href="../../demarrage_formation/demarrage_formation.html">Devenez Devenez Swag avec Swing</a>
                         </div>
                         <div class="icone ">
                           <i class="fa-solid fa-bars-progress" style="color: #595f69;"></i>
@@ -210,7 +222,9 @@
                         <p class="card-text">Écrire des programmes Java qui vont s’exécuter en console, c’est bien. Mais très souvent en tant que développeur (et surtout pour les utilisateurs finaux), on en veut un peu plus! Dans cette formation, je vous invite à découvrir comment créer des applications Java disposant d’interfaces graphiques fonctionnelles et professionnelles en utilisant Java Swing.</p>
                       </div>
                       <div class="footer my-4">
-                        <button class="btn btnDemarrer col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        <a href="../../demarrage_formation/demarrage_formation.html">
+                          <button class="btn btn-primary col-md-12"><i class="fa-solid fa-play me-2" style="color: #ffffff;"></i>Démarrer la formation</button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -226,7 +240,7 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-4">
     
                         <div class="col-6 mb-3">
-                          <a href="/" class="fs-4 d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                          <a href="../../page_formation/page_accueil.html" class="fs-4 d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
                             Parlons Code
                         </a>
                           <p class="text-body-secondary">Apprendre a coder par la pratique!</p>
@@ -246,7 +260,7 @@
                         <div class="col-2">
                           <h4>Liens utiles</h4>
                           <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="../../page_formation/indexF.html" class="nav-link p-0 text-body-secondary">Formations</a></li>
+                            <li class="nav-item mb-2"><a href="../../page_formation/page_accueil.html" class="nav-link p-0 text-body-secondary">Formations</a></li>
                             <li class="nav-item mb-2"><a href="../../podcasts/pod.html" class="nav-link p-0 text-body-secondary">Podcasts</a></li>
                             <li class="nav-item mb-2"><a href="../../livres/liste_livres.html" class="nav-link p-0 text-body-secondary">Liens & Ebooks</a></li>
                             <li class="nav-item mb-2"><a href="../../page support technique/supporttec.html" class="nav-link p-0 text-body-secondary">Support Technique</a></li>

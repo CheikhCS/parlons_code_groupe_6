@@ -8,6 +8,9 @@
 .form-control{
     margin-left: 215px;
 }
-.logo{
-    margin-left: 170px;
+.logo img{
+    margin-left: 90px;
+}
+.addmail input{
+    margin-right: 30px;
 }

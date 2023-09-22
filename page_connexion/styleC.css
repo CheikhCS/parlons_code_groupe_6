@@ -1,6 +1,4 @@
-.container{
-    border: 1px solid green;
-}
+
 .form-control{
   height: 50px;
   width: 50px; 
@@ -25,11 +23,13 @@
   background-color: white;
   height: 150px;
 }
-.logo{
-  margin-left: 160px;
+.logo img{
+  margin-left: 60px;
 }
 .form-check{
   margin-left:130px;
   display: flex;
 }
- 
+.boutton{
+  margin-left: 70px;
+}
