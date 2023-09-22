@@ -1,0 +1,30 @@
+:root{
+    --black_color : black;
+    --green-color : #288828;
+    --blue_color : #383A56;
+    --black_footer : #222222;
+    --white : white;
+}
+.meter{
+    width: 100%;
+}
+.promotion{
+    background-color: var(--green-color);
+}
+.last_section{
+    background-color: var(--blue_color);
+}
+.icon_livre{
+    font-size: 90px;
+}
+.bg_black{
+    background-color: var(--black_footer);
+}
+.text_lien a{
+    color: var(--white);
+    text-decoration: none;
+}
+.text_lien a:hover{
+    color: var(--white);
+    text-decoration: underline;
+}

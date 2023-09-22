@@ -1,0 +1,72 @@
+:root {
+    --couleurPrincipale: #32438A;
+    --color_gris_clair : #F5F5F5;
+    --color_title : #D9EDF7;
+    --color_formation : #517E96;
+    --bg_body : #F9F9F9;
+    --white_color : white;
+}
+body{
+    background-color: var(--bg_body);
+}
+
+.active {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+    background-color: aliceblue;
+}
+
+.nav-link:hover {
+    color: aqua;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+main {
+    margin-top: 60px;
+}
+
+footer {
+    background-color: #F5F8FA;
+    border-top: 3px solid #E5E9EE;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.abonnement {
+    background-color: var(--couleurPrincipale);
+    border: none;
+}
+
+.bg_secondary{
+    background-color: var(--color_gris_clair);
+}
+
+.card_title2{
+    background-color: var(--color_title);
+    color: var(--color_formation);
+}
+.icon_rotation{
+    transform: rotate(230deg);
+}
+.bg_body{
+    background-color: var(--bg_body);
+}
+.boutton_temoin{
+    background-color: var(--bg_body);
+    color: var(--couleurPrincipale);
+}
+.boutton_temoin a{
+    text-decoration: none;
+}
+.boutton_temoin a:hover{
+    color: var(--white_color);
+}
